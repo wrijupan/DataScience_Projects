@@ -15,7 +15,10 @@ The following are the main technical software packages that will be required for
 5. Scikit-learn
 
 # Methods
-#### Data preprocessing: The sound problem will be converted to a computer vision problem by converted the sound to its image representation (Mel spectrograms). The preprocessing steps include trimming and zero-padding audio, generating Mel spectrograms, standardization, chunking the spectrograms to smaller blocks for generating training and validation data batches.
+#### Data preprocessing: 
+
+(the current progress in the project involves this part)
+The sound problem will be converted to a computer vision problem by converted the sound to its image representation (Mel spectrograms). The preprocessing steps include trimming and zero-padding audio, generating Mel spectrograms, standardization, chunking the spectrograms to smaller blocks for generating training and validation data batches.
 
 #### Machine Learning:
 In general, only machine sounds from a normal state of an instrument will be available, i.e. the algorithm will not know beforehand how an abnormal sound looks like. So the training would be unsupervised using only normal sound data. Then during validation when the algorithm encounters an abnormal sound, it will identify that as an outlier.
