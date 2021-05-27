@@ -1,18 +1,23 @@
 # Data Science and Machine Learning projects
-This repository contains some of the projects that I am working on currently. Each respective projects can be found inside the respective directories above. All of them are in development phase and will be significantly improved in future.
 
-# Most recent Data Science project
-My current focus is on the following project: https://github.com/wrijupan/DataScience_Projects/tree/master/MachineFailureDiagnosis.
+This repository contains some independent Data Science projects that I have been working on recently. The tasks involve a wide range of topics including the following domains-
 
-#### Description
-Diagnosing the failure of industrial machines using their acoustic footprint over time. 
+1. Deep Convolutional Neural Networks to build models for classifying images along with building customised training loops.
 
-The problem at its core is a sound anomaly detection, which will be tackled using a Computer Vision approach by converting the machine sounds into image representations. 
+2. Unsupervised acoustic anomaly detection using an Autoencoder-based approach.
 
-I have designed this probject independently to solve a real-world industry problem with a high business impact. Currently, I am working on it actively under the direct supervision of industry experts whom I met in an ongoing Data Science bootcamp in Berlin, the Data Science Retreat.
+3. Supervised Machine Learning Regression Task
+
+4. Supervised classification task along with a treatment of highly imbalanced class labels in multi-class target variable.
+
+5. Signal processing
+
+More projects are currently under development and will be added to this repository soon.
 
 # Methods
+
 The projects described above cover the following methods mainly:
+
 1. Importing data
 2. Visualizing and exploring data
 3. Data cleaning
@@ -20,3 +25,15 @@ The projects described above cover the following methods mainly:
 5. Encoding and treating outliers
 6. Building Machine Learning models
 7. Evaluating Machine Learning models
+
+# Most recent Data Science project
+
+Apart from the projects listed in this repository, there is an additional project that I have been very recently involved in - the source code can be found in this Github repository: https://github.com/wrijupan/sound-of-failure
+
+#### Description
+The main purpose of this project is to develop an AI solution to reduce industrial downtime by diagnosing the failure of machines using their acoustic footprint. 
+
+I prototyped the project idea to solve a recurring problem in industries: loosing productivity due to industrial downtime. The downtime costs can be very expensive and often comes without any prior warning. Hence zero unplanned downtime is now the number one priority across several industries. The main aim of this project was to prevent such unplanned downtimes from happening by early diagnosis of the machine states using their sound patterns.
+
+For a detailed description and source code of the project, please check the above-mentioned Github link.
+
