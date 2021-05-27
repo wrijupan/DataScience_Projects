@@ -2,7 +2,9 @@
 
 ## Project Description
 
-The aim of this project is to apply a prediction model to sales in Rossmann stores according provided data. Rossmann is one of the largest drug store chains in Europe established in 1972. 
+The aim of this project is to apply a prediction model to sales in Rossmann stores according provided historical sales data from the last 1.5 years. Rossmann is one of the largest drug store chains in Europe established in 1972. 
+
+The project was carried out as a part of a 3 day Data Science mini-competition at Data Science Retreat, a boot camp held in Berlin. The task was not to only obtain the best score, but also to investigate novel approaches and develop completely reproducible models. **The obtained score was the best among 4 other teams participating in the Data Science mini-competition.**
 
 ## Data Set
 
@@ -49,11 +51,17 @@ PromoInterval - describes the consecutive intervals Promo2 is started, naming th
 Python 3.7 or later and the following packages: 
 
 `pandas`
+
 `numpy`
+
 `scikit-learn`
+
 `matplotlib`
+
 `seaborn`
+
 `xgboost`
+
 `holidays`
 
 ## How to use this repository
