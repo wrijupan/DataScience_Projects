@@ -53,11 +53,17 @@ ctr - Click through rate calculated as the quotient of detail_views over search_
 Python 3.7 or later and the following packages: 
 
 `imbalanced_learn==0.8.0`
+
 `matplotlib==3.4.`1`
-`numpy==1.20.2
+
+`numpy==1.20.2`
+
 `pandas==1.2.4`
+
 `scikit-learn==0.24.2`
+
 `scikit-lego==0.6.6`
+
 `seaborn==0.11.1`
 
 
@@ -65,8 +71,8 @@ Python 3.7 or later and the following packages:
 
 There are three notebooks for the above mentioned tasks-
 
-1. 01_cleaning_and_exporation.ipynb: This notebook takes care of the exploratory data analysis, removal of missing values and outliers. It then exports the cleaned data into a new csv file called ‘cleaned_data.csv’ which is used in the subsequent classification and regression tasks.
+1. `01_cleaning_and_exporation.ipynb`: This notebook takes care of the exploratory data analysis, removal of missing values and outliers. It then exports the cleaned data into a new csv file called ‘cleaned_data.csv’ which is used in the subsequent classification and regression tasks.
 
-2. 02_regression_detail_views_prediction.ipynb: This notebook performs the regression task of predicting the ‘detail_views’ column (a continuous target) based on the other columns and new engineered features.
+2. `02_regression_detail_views_prediction.ipynb`: This notebook performs the regression task of predicting the ‘detail_views’ column (a continuous target) based on the other columns and new engineered features.
 
-3. 03_classification_product_tier_prediction.ipynb: This notebook performs the task of classifying the product tier of the used cars into three categories, which as highly imbalanced (in the ratio of 1:3:136). It investigates various approaches to deal with the class imbalance problem - by trying to balance class labels through random sampling, generating new synthetic data, using Random Forest and Gradient Boosted Trees in combination with the mentioned methods etc.
+3. `03_classification_product_tier_prediction.ipynb`: This notebook performs the task of classifying the product tier of the used cars into three categories, which as highly imbalanced (in the ratio of 1:3:136). It investigates various approaches to deal with the class imbalance problem - by trying to balance class labels through random sampling, generating new synthetic data, using Random Forest and Gradient Boosted Trees in combination with the mentioned methods etc.
