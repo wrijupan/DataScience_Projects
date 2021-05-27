@@ -4,7 +4,7 @@ This repository contains some independent Data Science projects that I have been
 
 1. Deep Convolutional Neural Networks to build models for classifying images along with building customised training loops.
 
-2. Unsupervised acoustic anomaly detection using an Autoencoder-based approach.
+2. Unsupervised Deep Learning acoustic anomaly detection using an Autoencoder-based approach.
 
 3. Supervised Machine Learning Regression Task
 
