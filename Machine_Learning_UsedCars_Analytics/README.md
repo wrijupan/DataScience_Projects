@@ -20,6 +20,35 @@ The original dataset is not provided due to confidentiality. A description of th
 
 `Data_Description.csv`- Description of the different columns in the dataset
 
+## Results
+
+The model evaluations were carried out on an independent test dataset that was not used during training or hyper-parameter optimisation using RandomizedSearch.
+
+1. For the regression task of predicting the detail views column, Root Mean Squared Error (RMSE) was used as the evaluation metric. Out of all the different models tried, XGBoost provides the best score, more than one order of magnitude lower than the other models. 
+
+The scores obtained from all the models tried are given below-
+
+|Model     |   RMSE   | 
+|---------|-----------------|
+| XGBoost Regressor | 2.23 |
+| Random Forest Regressor | 14.97 |
+| Ridge Regressor | 41.61 |
+| Lasso Regressor| 41.61 |
+| Linear Regressor | 41.61 |
+
+2. For the classification task of predicting the product tier of used cars, the training dataset had highly imbalanced multi-class class labels (3 classes). The averaged recall score (given by Sklearn’s balanced accuracy) was used as the evaluation metric. After trying out different algorithms and sampling methods, histogram-based gradient-boosting classifier within a BalancedBaggingClassifier provided the best averaged recall score, a big improvement over a naive baseline classifier (DummyClassifier) that predicts all classes with the same label.
+
+The scores obtained from all the models tried are given below-
+
+|Model     |   Averaged Recall   | 
+|---------|-----------------------|
+| Gradient-Boosting + BalancedBagging | 0.70 |
+| XGBoost + Random Undersampling | 0.69 |
+| Random Forest + Random Undersampling | 0.61 |
+| Logistic Regression + Random Undersampling | 0.63 |
+| Dummy Classifier | 0.33 |
+
+
 
 #### Data Dictionary
 ```
