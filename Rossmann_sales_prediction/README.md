@@ -14,6 +14,20 @@ The project was carried out as a part of a 3 day Data Science mini-competition a
 
 `store.csv` - information about each store
 
+## Results
+
+According to the criterion of the mini-competition, the metric used for evaluating the models was Root Mean Squared Percentage Error (RMPSE).
+
+After trying out different strategies for data preprocessing and model building, we evaluate our predictions for Rossmann stores sales on a separate holdout data set. The model which provides the best root means square percentage error is XGBoost. The values of the metric are compared in the table below-
+
+|Model     |   RMSPE   | 
+|---------|-----------------|
+| XGBoost Regressor | 21.85 |
+| Voting Regressor | 25.59 |
+| Lasso Regressor | 27.79 |
+| Random Forest Regressor| 30.45 |
+
+
 ### Data Dictionary
 ```
 Id - an Id that represents a (Store, Date) duple within the test set
