@@ -1,5 +1,5 @@
-Sound of failure
-==============================
+Sound of failure: Unsupervised Deep Learning Acoustic Anomaly Detection
+=======================================================================
 
 An AI solution to reduce industrial downtime by diagnosing the failure of machines using their acoustic footprint.
 
